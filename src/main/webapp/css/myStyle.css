@@ -1,0 +1,75 @@
+h1#logo-text {
+	color: #77D1F7;
+
+	/* change the values of top and left to adjust the position of the logo*/
+}
+
+h2#slogan {
+	color: #77D1F7;
+	/* change the values of top and left to adjust the position of the slogan*/
+}
+
+.g {
+	color: #77D1F7;
+}
+
+.p {
+	color: #0398ED;
+}
+
+.b {
+	color: #5cb85c;
+}
+
+.abscc {
+	display: none;
+}
+
+.plus_icon {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: url('../img/plus.gif') no-repeat;
+}
+
+.minus_icon {
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background: url('../img/minus.gif') no-repeat;
+}
+
+.form-border {
+	margin-right: 0;
+	margin-left: 0;
+	background-color: #eee;
+	border-color: #ddd;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 4px 4px 0 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.my-header {
+	padding: 15px 15px;
+	margin-top:50px;
+	margin-bottom: 15px;
+	color: inherit;
+	background-color: #eee;
+}
+
+.my-header h3 {
+	font-size: 32px;
+	margin-bottom: 15px;
+}
+
+.my-header p {
+	margin-bottom: 15px;
+}
+
+.my-header img {
+	float: left;
+	height: 100px;
+	margin-right: 20px;
+}
