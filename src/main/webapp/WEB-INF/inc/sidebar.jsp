@@ -6,7 +6,7 @@ String tab_link = request.getServletPath();
          role="complementary">
         <ul class="nav bs-docs-sidenav">
             
-            <li <%=(tab_link.equals("/index.jsp"))?"class='active'":"" %> >
+            <li <%=(tab_link.equals("/index"))?"class='active'":"" %> >
             	<a href="index" style="font-size:10.5pt">Home</a>
             </li>
             
@@ -18,11 +18,11 @@ String tab_link = request.getServletPath();
             	<a href="committees" class="tab" style="font-size:10.5pt">Committees</a>
             </li>
             
-            <li <%=(tab_link.equals("/scientific-program"))?"class='active'":"" %> >
+            <li <%=(tab_link.equals("/sci-program"))?"class='active'":"" %> >
             	<a href="sci-program" class="tab" style="font-size:10.5pt">Scientific Program</a>
             </li>
             
-            <li <%=(tab_link.equals("/keynote-speaker"))?"class='active'":"" %> >
+            <li <%=(tab_link.equals("/speaker"))?"class='active'":"" %> >
             	<a href="speaker" class="tab" style="font-size:10.5pt">Keynote Speakers</a>
             </li>
             

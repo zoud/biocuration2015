@@ -11,8 +11,8 @@
         <!-- Bootstrap core CSS -->
         <link type='text/css' href="${host}/css/bootstrap.min.css" rel="stylesheet">
         <link type='text/css' href="${host}/css/footer.css" rel="stylesheet">
-        <link type='text/css' href="${hsot}/css/myStyle.css" rel="stylesheet">
-        <link type='text/css' href="${hsot}/css/doc.css" rel="stylesheet">
+        <link type='text/css' href="${host}/css/myStyle.css" rel="stylesheet">
+        <link type='text/css' href="${host}/css/doc.css" rel="stylesheet">
     </head>
     <body>
         <div id="wrap">
