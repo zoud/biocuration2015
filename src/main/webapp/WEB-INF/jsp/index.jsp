@@ -26,18 +26,17 @@
                 <div class="row">
                     <jsp:include page="/WEB-INF/inc/sidebar.jsp"/>
                         <div class="col-md-9" id="main" style="margin-top:20px">
-                            
-                            <!--
+
                             <div class="panel panel-default">
                                 <div class="panel-heading">
-                                    <h3 class="panel-title">Welcome Note</h3>
+                                    <h3 class="panel-title">Conference Book</h3>
                                 </div>
                                 <div class="panel-body">
-                                    <p>It is our great pleasure to announce that the 8th International Biocuration Conference (IBC) will be held in April 23-26, 2015, at <a href="http://www.friendshipbjhotel.com/siteen/" target="_blank">Beijing Friendship Hotel</a>, Beijing, China.</p>
-                                    <div style="padding:0;text-align:right"><a href="welcome.jsp" class="tab">More information...</a></div>
+                                    <a href="${host}/file/biocuration2015book.pdf" target="_blank">Biocuration2015</a>
+                                    <br>
+                                    <a href="${host}/img/biocuration2015-groupphoto.png" target="_blank">Group photo</a>
                                 </div>
                             </div>
-                            -->
                             
                             <div class="panel panel-default">
                                 <div class="panel-heading">

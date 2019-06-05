@@ -31,7 +31,7 @@
                                     <h4 style="font-size:12pt;font-weight:bold">Friendship Hotel</h4>
                                     <p align="left">To book and receive the special rate, please:
                                     <ol>
-                                        <li>Download the <a href="${host}/static/file/friendshiphotel.doc" target="_blank">hotel reservation form</a> and fill it out.</li>
+                                        <li>Download the <a href="${host}/file/friendshiphotel.doc" target="_blank">hotel reservation form</a> and fill it out.</li>
                                         <li>Return the form to the hotel by email (see details in the above file).</li>
                                     </ol>
                                     </p>

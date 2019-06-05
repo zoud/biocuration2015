@@ -21,7 +21,7 @@ public class CommonInterceptor extends HandlerInterceptorAdapter {
     @Override
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
         String host = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort() + request.getContextPath();
-        System.out.println(request.getRemoteAddr());
+
         if (modelAndView != null && !modelAndView.getViewName().startsWith("redirect:")) {
             modelAndView.addObject("host", host);
         }

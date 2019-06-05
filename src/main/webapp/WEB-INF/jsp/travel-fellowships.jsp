@@ -46,7 +46,8 @@
                                         <li>Notification of acceptance: February 18, 2015</li>
                                         <li>Conference: April 23-26, 2015</li>
                                     </ul>
-                                    <p>File download:<a href="travel_award_application_form.doc" target="_blank"> Travel Award Application Form</a></p>
+                                    <p>File download:<a href="${host}/file/travel_award_application_form.doc" target="_blank"> Travel Award Application Form</a></p>
+                                    「
                                 </div>
                             </div> 
                         </div>
